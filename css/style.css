@@ -4,18 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 /* common */
 body{
     font-family: 'Montserrat', sans-serif;
 }
 
-
 .container{
     width: 80%;
     margin: auto;
     margin-top: 20px; 
-    /* border:1px solid black */
 }
 
 .clearfix::after{
@@ -24,20 +21,19 @@ body{
     clear:both;
 }
 
-/* header */
-header{
-    width: 100%;
+.overlay{
+    
 }
 
+/* header */
 .logo{
     border-right: 1px solid #e5e5e5;
     display: inline-block;
     padding-right: 50px;
-
 }
 
 nav{
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 li, a{
@@ -53,41 +49,53 @@ li, a{
     margin-top: 20px;
     border-radius: 10px;
     background-image: url(../img/banner.jpg);
-    background-position: center;  
+    background-position: center;
     padding: 350px 50px 70px;
     color: #fcfbfb;
 }
 
 .leadership{
     width: 100%;
-    border: 1px solid black;
-    background-color: #0186ff;
-    /* height: 400px; */
     margin-top: 20px;
 }
 
 .leader-title{
     width: 100%;
-    height: 80px;
-    border: 1px solid black;
-    background-color: #abcfe7;
 }
 
 .silo-left, .silo-right{
     width: 20%;
-    height: 600px;
-    border: 1px solid black;
-    background-color: #abcfe7;
+    height: 600px; 
     margin: 20px 0px;
 }
 
+.img, .img2, .banner2{
+    height: 300px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+.img{
+    background-image: url(../img/img-1.jpg);
+}
+
+.img2{
+    background-image: url(../img/img-3.jpg);
+}
+
+h4{
+    margin: 15px 0px;
+}
+
 .central{
-    width: calc(60% - 30px);
-    height: 600px;
+    width: calc(60% - 30px);  
     display: inline-block;
-    border: 1px solid black;
-    background-color: #abcfe7;
     margin: 20px 15px;
+}
+
+.banner2{
+    background-image: url(../img/banner-2.jpg);
 }
 
 .silo-left, .central, .silo-right{
@@ -95,11 +103,18 @@ li, a{
     
 }
 
+/* footer */
 footer{
     width: 100%;
-    height: 100px;
-    background-color: #8801fe;
+    /* height: 100px; */
+    /* background-color: #8801fe; */
     margin-top: 10px;
+    text-align: center;
+}
+
+p > span{
+    color: red;
+    font-size: xx-large;
 }
 
 
