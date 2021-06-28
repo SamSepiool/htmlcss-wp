@@ -22,7 +22,13 @@ body{
 }
 
 .overlay{
-    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.2);
+
 }
 
 /* header */
@@ -50,8 +56,11 @@ li, a{
     border-radius: 10px;
     background-image: url(../img/banner.jpg);
     background-position: center;
+    background-size: cover;
     padding: 350px 50px 70px;
-    color: #fcfbfb;
+    color: white;
+    position: relative;
+    overflow: hidden;  
 }
 
 .leadership{
@@ -74,6 +83,8 @@ li, a{
     border-radius: 10px;
     background-position: center;
     background-size: cover;
+    position: relative;
+    overflow: hidden;
 }
 
 .img{
